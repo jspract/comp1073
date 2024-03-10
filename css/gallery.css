@@ -1,0 +1,18 @@
+#thumbnails-container {
+    display: flex;
+    justify-content: center;
+}
+
+#thumbnail-list {
+    list-style: none;
+    display: flex;
+    gap: 8px; 
+}
+
+#thumbnail-list li {
+    margin: 0;
+}
+
+#thumbnail-list img:hover {
+    cursor: pointer;
+}
